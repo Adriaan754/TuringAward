@@ -2,7 +2,9 @@ var deviceWidth = $(window).width();
 var deviceHeight = $(window).height();
 var tooLow = 1120;
 var tooHigh = 992;
-$(function() {
+var fixedBefore = false;
+
+renderFix = function() {
   if (deviceWidth <= tooLow && deviceWidth >= tooHigh) {
     console.log("Weird deviceWidth, rendering error will happen");
     document.getElementById("logo-container").style.left = "-2.5em";
@@ -13,4 +15,9 @@ $(function() {
   }
   console.log("pageWidth=" + deviceWidth);
   console.log("deviceHeight=" + deviceHeight)
+};
+
+$(renderFix);
+$(window).resize(function() {
+  location.reload(false);
 });
