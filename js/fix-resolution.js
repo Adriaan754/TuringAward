@@ -3,7 +3,8 @@ var deviceHeight = $(window).height();
 var tooHigh = 767;
 var tooLow = 1119;
 
-
+/*PLS UPDATE, GH-PAGES
+*/
 $(function() {
   if (deviceWidth < tooLow) {
     if (deviceHeight > tooHigh) {
