@@ -19,11 +19,11 @@
 <body>
 
 
-
+  <!-- We have yet to fix the weird rendering on low resolutions-->
   <!--This is where the actual html begins-->
   <nav class="teal" role="navigation">
     <!--Big screens-->
-    <div class="nav-wrapper container"><a id="title-container" href="#" class="brand-logo">Turing</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Turing</a>
       <ul class="right hide-on-med-and-down">
 
         <li><a href="#">Alan Turing</a></li>
@@ -33,6 +33,7 @@
         <li><a href="#">Onderzoek</a></li>
         <li><a href="#">Samenwerking</a></li>
       </ul>
+
       <!--Small screens-->
 
       <ul id="nav-mobile" class="side-nav">
@@ -57,11 +58,14 @@
 
 
 
-  <!--Import scripts-->
-  <!--Import jQuery before materialize.js-->
+  <!--
+  Import scripts
+  Import  before materialize.js
+  -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script type="text/javascript" src="js/init.js"></script>
+  <script type="text/javascript" src="js/fix-resolution.js"></script>
   <div class="hiddendiv common"></div>
   <div class="drag-target" style="-webkit-user-drag: none; width: 50%; right: 0px;"></div>
 </body>
