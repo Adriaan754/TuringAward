@@ -1,0 +1,9 @@
+.drag-target{
+  -webkit-user-drag: none;
+  width: 50%;
+  right: 0px;
+  top:4em;
+}
+#nav-mobile{
+  left:-250px;
+}
