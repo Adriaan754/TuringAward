@@ -8,3 +8,7 @@
 #nav-mobile{
   /*left:-250px;*/
 }
+#dropdown2 li a{
+  text-align: center;
+  text-size: .25em;
+}
