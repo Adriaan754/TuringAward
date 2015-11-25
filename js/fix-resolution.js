@@ -1,3 +1,7 @@
+/*
+render-fix.js
+door Adriaan754
+*/
 var deviceWidth = $(window).width();
 var deviceHeight = $(window).height();
 var tooLow = 1120;
