@@ -8,11 +8,14 @@ var tooLow = 1120;
 var tooHigh = 992;
 var fixedBefore = false;
 
+var fixedBefore = false;
+
 renderFix = function() {
   if (deviceWidth <= tooLow && deviceWidth >= tooHigh) {
     console.log("Weird deviceWidth, rendering error will happen");
     document.getElementById("logo-container").style.left = "-2.5em";
     console.log("Rendering error fixed")
+    fixedBefore = true;
 
   } else {
     console.log("Normal deviceWidth, the website will be fine");
@@ -23,5 +26,5 @@ renderFix = function() {
 
 $(renderFix);
 $(window).resize(function() {
-  location.reload(false);
+  renderFix;
 });
