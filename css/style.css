@@ -1,8 +1,8 @@
 .drag-target{
+  touch-action: pan-y;
   -webkit-user-drag: none;
-  width: 50%;
-  right: 0px;
-  top:4em;
+  -webkit-tap-highlight-color: teal;
+  left: 0px;
 }
 
 #nav-mobile{
