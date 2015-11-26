@@ -18,6 +18,12 @@ body {
 main {
   flex: 1 0 auto;
 }
+<<<<<<< HEAD
 #img-container {
   margin:inherit;
+=======
+
+#text-container {
+  overflow: ;
+>>>>>>> master
 }
