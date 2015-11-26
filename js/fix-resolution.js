@@ -24,5 +24,4 @@ renderFix = function renderFix(){
 
 $(renderFix);
 $(window).resize(
-  renderFix();
-);
+  renderFix());
