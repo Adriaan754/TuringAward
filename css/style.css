@@ -1,14 +1,20 @@
-.drag-target{
-  touch-action: pan-y;
-  -webkit-user-drag: none;
-  -webkit-tap-highlight-color: teal;
-  left: 0px;
-}
-
 #nav-mobile{
   /*left:-250px;*/
 }
 #dropdown2 li a{
   text-align: center;
   text-size: .25em;
+}
+#onderzoek {
+  margin-right: .25em;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
