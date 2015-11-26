@@ -20,62 +20,69 @@
 <body>
 
 
+  <div class="navbar-fixed">
+    <!--This is where the actual html begins-->
+    <nav class="teal" role="navigation">
+      <!--Big screens-->
+      <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Turing</a>
+        <ul class="right hide-on-med-and-down">
 
-  <!--This is where the actual html begins-->
-  <nav class="teal" role="navigation">
-    <!--Big screens-->
-    <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Turing</a>
-      <ul class="right hide-on-med-and-down">
+          <li><a class="dropdown-button" href="#" data-activates='dropdown1' data-hover="true">Alan Turing</a></li>
+          <li><a href="shafi.html">Shafi Goldwasser</a></li>
+          <li><a href="silvio.html">Silvio Micali</a></li>
+          <li><a class="dropdown-button" href="#" data-activates='dropdown2' data-hover="true">Onderzoek</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
 
-        <li><a class="dropdown-button" href="#" data-activates='dropdown1' data-hover="true">Alan Turing</a></li>
-        <li><a href="shafi.html">Shafi Goldwasser</a></li>
-        <li><a href="silvio.html">Silvio Micali</a></li>
-        <li><a class="dropdown-button" href="#" data-activates='dropdown2' data-hover="true">Onderzoek</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+        <!--Small screens-->
 
-      <!--Small screens-->
+        <ul id="nav-mobile" class="side-nav">
 
-      <ul id="nav-mobile" class="side-nav">
+          <li><a href="turing.html">Alan Turing</a></li>
+          <li><a href="turing_award.html">Turing Award</a></li>
+          <li><a href="shafi.html">Shafi Goldwasser</a></li>
+          <li><a href="silvio.html">Silvio Micali</a></li>
+          <li><a href="onderzoek.html">Onderzoek</a></li>
+          <li><a href="samenwerking.html">Samenwerking</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">Over</a></li>
 
-        <li><a href="turing.html">Alan Turing</a></li>
-        <li><a href="turing_award.html">Turing Award</a></li>
-        <li><a href="shafi.html">Shafi Goldwasser</a></li>
-        <li><a href="silvio.html">Silvio Micali</a></li>
-        <li><a href="onderzoek.html">Onderzoek</a></li>
-        <li><a href="samenwerking.html">Samenwerking</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="about.html">Over</a></li>
+        </ul>
 
-      </ul>
+        <ul id='dropdown1' class='dropdown-content'>
+          <li><a href="turing.html">Alan Turing</a></li>
+          <li class="divider"></li>
+          <li><a href="turing_award.html">Turing Award</a></li>
+        </ul>
 
-      <ul id='dropdown1' class='dropdown-content'>
-        <li><a href="turing.html">Alan Turing</a></li>
-        <li class="divider"></li>
-        <li><a href="turing_award.html">Turing Award</a></li>
-      </ul>
-
-      <ul id='dropdown2' class='dropdown-content'>
-        <li><a id="onderzoek" href="onderzoek.html">Onderzoek</a></li>
-        <li class="divider"></li>
-        <li><a href="samenwerking.html">Samenwerking</a></li>
-      </ul>
+        <ul id='dropdown2' class='dropdown-content'>
+          <li><a id+ "onderzoek" href="onderzoek.html">Onderzoek</a></li>
+          <li class="divider"></li>
+          <li><a href="samenwerking.html">Samenwerking</a></li>
+        </ul>
 
 
 
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 
-    </div>
-  </nav>
-
+      </div>
+    </nav>
+  </div>
   <!--Eerste Sectie -->
   <div id="index-banner" class="container">
     <div class="section no-pad-bot">
       <div class="container">
-        <h1 class="header center grey-text text-darken-4">Turing Award</h1>
+        <h2 class="header center grey-text text-darken-4">A.M. Turing Award</h1>
         <div class="row center">
-          <p>
-            
+          <p class="flow-text">
+            De A.M. Turing Award.
+            De prijs  die wordt gezien als de hoogste onderscheiding in het informatica en ook wel bekend als de Nobelprijs voor de informatica.
+            De Turing Award is vernoemd naar Alan Turing en met het winnen
+            van de prijs gaat inmiddels een geldbedrag van $1.000.000 wat ongeveer gelijk staat aan €800.000.
+            Dit is mogelijk door de sponsoring van onder andere Google en Intel.
+          </p>
+          <p class="flow-text">
+
           </p>
         </div>
       </div>
@@ -100,13 +107,12 @@
   <!--
   Import scripts
   Import  before materialize.js
-  -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script type="text/javascript" src="js/init.js"></script>
-<script type="text/javascript" src="js/fix-resolution.js"></script>
-<div class="hiddendiv common"></div>
-<div class="drag-target"></div>
+-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/init.js"></script>
+  <script type="text/javascript" src="js/fix-resolution.js"></script>
+
 </body>
 
 
