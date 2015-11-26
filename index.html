@@ -1,51 +1,293 @@
 <!DOCTYPE html>
 <html lang="nl">
-<meta charset="utf-8">
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-      <!--Import custom style.css-->
-      <!--Overrides materialize-->
-      <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
-      <title>Turing Award</title>
-    </head>
-    <body>
 
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+<head>
+  <meta charset="utf-8">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" />
+  <!--Import custom style.css-->
+  <!--Overrides materialize-->
+  <link href="css/style.css" type="text/css" rel="stylesheet" />
 
-      <!--This is where the actual html begins-->
-          <nav class="teal" role="navigation">
-        <div class="nav-wrapper container"><a id="title-container" href="#">TURING AWARD - SHAFFI GOLDWASSER</a></div>
-  <!--  Balk met onderwerpen NIET werkend
-        <div class="nav-wrapper container">
-          <ul class="right hide-on-med-and-down">
-            <li><a href="#" id="1">Navbar Link     </a></li>
-            <li><a href="#" id="2">Alan Turing     </a></li>
-            <li><a href="#" id="3">Turing Award    </a></li>
-            <li><a href="#" id="3">Shafi Goldwasser</a></li>
-            <li><a href="#" id="4">Silvio Micali   </a></li>
-            <li><a href="#" id="5">Onderzoek       </a></li>
-            <li><a href="#" id="6">Samenwerking    </a></li>
-          </ul>
-        </div>-->
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Turing Award</title>
+</head>
 
-          <ul id="nav-mobile" class="side-nav">
-            <li><a href="#">Navbar Link</a></li>
-          </ul>
+<body>
 
-           <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 
+
+  <!--This is where the actual html begins-->
+  <nav class="teal" role="navigation">
+    <!--Big screens-->
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Turing</a>
+      <ul class="right hide-on-med-and-down">
+
+        <li><a class="dropdown-button" href="#" data-activates='dropdown1' data-hover="true">Alan Turing</a></li>
+        <li><a href="pages/shafi.html">Shafi Goldwasser</a></li>
+        <li><a href="pages/silvio.html">Silvio Micali</a></li>
+        <li><a class="dropdown-button" href="#" data-activates='dropdown2' data-hover="true">Onderzoek</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+      </ul>
+
+      <!--Small screens-->
+
+      <ul id="nav-mobile" class="side-nav">
+
+        <li><a href="pages/turing.html">Alan Turing</a></li>
+        <li><a href="pages/turing_award.html">Turing Award</a></li>
+        <li><a href="pages/shafi.html">Shafi Goldwasser</a></li>
+        <li><a href="pages/silvio.html">Silvio Micali</a></li>
+        <li><a href="pages/onderzoek.html">Onderzoek</a></li>
+        <li><a href="pages/samenwerking.html">Samenwerking</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+        <li><a href="pages/about.html">Over</a></li>
+
+      </ul>
+
+      <ul id='dropdown1' class='dropdown-content'>
+        <li><a href="turing.html">Alan Turing</a></li>
+        <li class="divider"></li>
+        <li><a href="turing_award.html">Turing Award</a></li>
+      </ul>
+
+      <ul id='dropdown2' class='dropdown-content'>
+        <li><a href="onderzoek.html">Onderzoek</a></li>
+        <li class="divider"></li>
+        <li><a href="samenwerking.html">Samenwerking</a></li>
+      </ul>
+
+
+
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
+    </div>
+  </nav>
+
+  <!--Eerste Sectie -->
+  <div id="index-banner" class="parallax-container">
+    <div class="parallax">
+      <img src="images/ssf.jpg" alt="parallax-img-1" id="parallax-img-1">
+    </div>
+    <div class="section no-pad-bot">
+      <div class="container">
+        <h1 class="header center grey-text text-darken-4">Turing Award</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Een website over de Turing-award van Shafi Goldwasser en Silvio Micali
+          </h5>
         </div>
-      </nav>
+      </div>
+    </div>
+  </div>
 
-    </body>
+  <!--Tweede sectie-->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div id="main">	
+			<div class="wrapper">
+
+				<!-- slider holder -->
+				<div id="slider-holder" class="clearfix">
+					
+					<!-- slider -->
+			        <div class="flexslider home-slider">
+					  <ul class="slides">
+					    <li style="width: 100%; float: left; margin-right: -100%; display: list-item;">
+					      <img src="img/slides/01.jpg" alt="alt text">
+					    </li>
+					    <li style="width: 100%; float: left; margin-right: -100%; display: none;">
+					      <img src="img/slides/02.jpg" alt="alt text">
+					      <p class="flex-caption">Pellentesque habitant morbi  feugiat vitae.</p>
+					    </li>
+					    <li style="width: 100%; float: left; margin-right: -100%; display: none;">
+					      <img src="img/slides/03.jpg" alt="alt text">
+					    </li>
+					  </ul>
+					<ul class="flex-direction-nav"><li><a class="prev" href="#">Previous</a></li><li><a class="next" href="#">Next</a></li></ul></div>
+		        	<!-- ENDS slider -->
+		        	
+		        	<div class="home-slider-clearfix "></div>
+		        	
+		        	<!-- Headline -->
+		        	<div id="headline">
+		        		<h1>RESPONSIVE, FREE AND SLEEK</h1>
+		        		<p>Zeni is a FREE Responsive HTML 5 Template.</p>
+		        		<p>Visit my <a href="http://www.luiszuno.com">site</a> for more freebies</p>
+		        		<em id="corner"></em>
+		        	</div>
+		        	<!-- ENDS headline -->
+		        	
+		        	
+				</div>
+				<!-- ENDS slider holder -->
+				
+				
+				<!-- home-block -->
+	        	<div class="home-block">
+	        		<h2 class="home-block-heading"><span>FEATURED POSTS</span></h2>
+	        		<div class="one-third-thumbs clearfix">
+	        			<figure>
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html" class="thumb"><img src="img/dummies/featured-1.jpg" alt="Alt text"></a>
+		        		</figure>
+		        		
+		        		<figure>
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html" class="thumb"><img src="img/dummies/featured-2.jpg" alt="Alt text"></a>
+		        		</figure>
+		        		
+		        		<figure class="last">
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html" class="thumb"><img src="img/dummies/featured-3.jpg" alt="Alt text"></a>
+		        		</figure>
+		        		
+		        		<figure>
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html" class="thumb"><img src="img/dummies/featured-4.jpg" alt="Alt text"></a>
+		        		</figure>
+		        		
+		        		<figure>
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html" class="thumb"><img src="img/dummies/featured-5.jpg" alt="Alt text"></a>
+		        		</figure>
+		        		
+		        		<figure class="last">
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html" class="thumb"><img src="img/dummies/featured-6.jpg" alt="Alt text"></a>
+		        		</figure>
+		        		
+		        		
+	        		</div>
+	        	</div>
+	        	<!-- ENDS home-block -->
+	        	
+	        	
+	        	<!-- home-block -->
+	        	<div class="home-block">
+	        		<h2 class="home-block-heading"><span>LATEST PROJECTS</span></h2>
+	        		<div class="one-fourth-thumbs clearfix">
+	        			
+	        			
+	        			<figure>
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html" class="thumb"><img src="img/dummies/featured-7.jpg" alt="Alt text"></a>
+		        		</figure>
+		        		
+		        		<figure>
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html" class="thumb"><img src="img/dummies/featured-8.jpg" alt="Alt text"></a>
+		        		</figure>
+		        		
+		        		<figure>
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html" class="thumb"><img src="img/dummies/featured-9.jpg" alt="Alt text"></a>
+		        		</figure>
+		        		
+		        		<figure class="last">
+		        			<figcaption>
+	        					<strong>Pellentesque habitant morbi</strong>
+	        					<span>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</span>
+	        					<em>December 08, 2011</em>
+	        					<a href="single.html" class="opener"></a>
+			        		</figcaption>
+			        		
+			        		<a href="single.html" class="thumb"><img src="img/dummies/featured-10.jpg" alt="Alt text"></a>
+		        		</figure>
+		        		
+		        		<a href="#" class="more-link right">More projects  →</a>
+		        		
+		        		
+		        		
+	        		</div>
+	        		
+	        		
+	        	</div>
+	        	<!-- ENDS home-block -->
+	        		        	
+			</div>
+		</div>
+
+
+
+  <!--
+  Import scripts
+  Import  before materialize.js
+-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/init.js"></script>
+<script type="text/javascript" src="js/fix-resolution.js"></script>
+<div class="hiddendiv common"></div>
+<div class="drag-target"></div>
+</body>
 
 
 </html>
