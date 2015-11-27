@@ -6,6 +6,7 @@ var deviceWidth = $(window).width();
 var deviceHeight = $(window).height();
 var tooLow = 1120;
 var tooHigh = 992;
+var fixedBefore = false;
 
 renderFix = function renderFix(){
   if (deviceWidth <= tooLow && deviceWidth >= tooHigh) {

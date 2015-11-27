@@ -3,7 +3,7 @@
 
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
-
+    $('.materialboxed').materialbox();
 
 
   }); // end of document ready
