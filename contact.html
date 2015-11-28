@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <!DOCTYPE html>
 <html lang="nl">
 
@@ -75,23 +76,23 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <form class="col s12" action="process.php" method="post" enctype="text/plain">
+          <form class="col s12" action="php/process.php" method="post" enctype="text/plain">
             <div class="row">
               <h3 class="header black-text">Contact</h3>
               <div class="input-field col s6">
                 <i class="material-icons prefix">account_circle</i>
-                <input placeholder="Steve" id="first_name" type="text" class="validate">
+                <input placeholder="Steve" id="first_name" type="text" class="validate" required="required">
                 <label for="first_name">Voornaam</label>
               </div>
               <div class="input-field col s6">
-                <input placeholder="Jobs" id="last_name" type="text" class="validate">
+                <input placeholder="Jobs" id="last_name" type="text" class="validate" required="required">
                 <label for="last_name">Achternaam</label>
               </div>
             </div>
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">mode_edit</i>
-                <input placeholder="Deze website is niet goed" id="subject" type="text" class="validate">
+                <input placeholder="Deze website is niet goed" id="subject" type="text" class="validate" required="required">
                 <label for="subject">Onderwerp</label>
               </div>
             </div>
@@ -100,7 +101,7 @@
                 <div class="row">
                   <div class="input-field col s12">
                     <i class="material-icons prefix">mode_edit</i>
-                    <textarea placeholder="Geachte Mijnheer,Mevrouw" id="message" class="materialize-textarea"></textarea>
+                    <textarea placeholder="Geachte Mijnheer,Mevrouw" id="message" class="materialize-textarea" required="required"></textarea>
                     <label for="message">Bericht</label>
                   </div>
                 </div>
@@ -109,7 +110,7 @@
             <div class="row">
               <div class="input-field col s12">
                 <i class="material-icons prefix">email</i>
-                <input placeholder="steve.jobs@apple.com" id="email" type="email" class="validate">
+                <input placeholder="steve.jobs@apple.com" id="email" type="email" class="validate" required="required">
                 <label for="email">Email</label>
               </div>
             </div>
