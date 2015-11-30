@@ -1,33 +1,44 @@
 #dropdown2 li a {
   text-align: center;
-  text-size:   .25em; }
+  text-size: .25em;
+}
 
 #onderzoek {
-  margin-right: .25em;}
+  margin-right: .25em;
+}
 
 body {
-  display:          flex;
-  min-height:      100vh;
-  flex-direction: column; }
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 
 main {
-  flex: 1 0 auto; }
+  flex: 1 0 auto;
+}
 
 #img-container {
-  margin:inherit; }
-
+  margin: inherit;
+}
 
 .footer-icon {
-  font-size:1.45em !important; }
+  font-size: 1.45em !important;
+}
 
 #footer {
-  margin-top:-1em; }
+  margin-top: -1em;
+}
 
 #alan-img {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 #shafi-img {
   margin-left: auto;
   margin-right: auto;
+}
+
+iframe {
+  border: none;
 }
