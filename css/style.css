@@ -1,37 +1,26 @@
-#nav-mobile{
-  /*left:-250px;*/
-}
-#dropdown2 li a{
+#dropdown2 li a {
   text-align: center;
-  text-size: .25em;
-}
+  text-size:   .25em; }
+  
 #onderzoek {
-  margin-right: .25em;
-}
+  margin-right: .25em;}
 
 body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
+  display:          flex;
+  min-height:      100vh;
+  flex-direction: column; }
 
 main {
-  flex: 1 0 auto;
-}
-
+  flex: 1 0 auto; }
 
 #img-container {
-  margin:inherit;
-}
+  margin:inherit; }
 
 #shafi-img {
-  height:5%;
-
-}
+  height:5%; }
+  
 .footer-icon {
-  font-size:1.45em !important;
-}
+  font-size:1.45em !important; }
 
 #footer {
-  margin-top:-1em;
-}
+  margin-top:-1em; }
