@@ -1,7 +1,7 @@
 #dropdown2 li a {
   text-align: center;
   text-size:   .25em; }
-  
+
 #onderzoek {
   margin-right: .25em;}
 
@@ -18,14 +18,13 @@ main {
 
 #shafi-img {
   height:5%; }
-  
+
 .footer-icon {
   font-size:1.45em !important; }
 
 #footer {
   margin-top:-1em; }
 
-#Alan-img { 
-  position:relative !important;
-    text-align:center !important; }
-  
+#alan-img {
+margin-left: auto;
+margin-right: auto; }
