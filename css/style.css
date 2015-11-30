@@ -26,4 +26,7 @@ main {
   margin-top:-1em; }
 
 #Alan-img { 
-  margin: auto; }
+  position:absolute !important;
+  margin: auto !important;
+  text-align:center !important; }
+  
