@@ -13,8 +13,13 @@
       var ageDate = new Date(ageDifMs); // miliseconds from epoch
       return Math.abs(ageDate.getUTCFullYear() - 1970);
     }
-    document.getElementById("age-adriaan").innerHTML = "Leeftijd: " + _calculateAge(date);
-    document.getElementById("age-jannick").innerHTML = "Leeftijd: " + _calculateAge(date_jannick);
+    try {
+      document.getElementById("age-adriaan").innerHTML = "Leeftijd: " + _calculateAge(date);
+      document.getElementById("age-jannick").innerHTML = "Leeftijd: " + _calculateAge(date_jannick);
+    } catch (err) {
+
+    }
+
 
 
   }); // end of document ready
