@@ -16,8 +16,6 @@ main {
 #img-container {
   margin:inherit; }
 
-#shafi-img {
-  height:5%; }
 
 .footer-icon {
   font-size:1.45em !important; }
@@ -26,5 +24,8 @@ main {
   margin-top:-1em; }
 
 #alan-img {
-margin-left: auto;
-margin-right: auto; }
+  margin-left: auto;
+  margin-right: auto; }
+
+#shafi-img {
+  height:5%; }
