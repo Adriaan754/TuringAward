@@ -28,4 +28,7 @@ main {
   margin-right: auto; }
 
 #shafi-img {
-  height:5%; }
+  margin-left: auto;
+  margin-right: auto;
+  transform: scale(.5,.5);
+  --webkit-transform: scale(.5,.5); }
