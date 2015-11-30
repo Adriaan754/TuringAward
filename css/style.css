@@ -30,7 +30,4 @@ main {
 #shafi-img {
   margin-left: auto;
   margin-right: auto;
-  margin-top: -15em;
-  margin-bottom: -15em;
-  transform: scale(.5,.5);
-  --webkit-transform: scale(.5,.5); }
+}
