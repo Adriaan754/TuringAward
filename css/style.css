@@ -31,3 +31,6 @@ main {
 .footer-icon {
   font-size:1.45em !important;
 }
+
+#footer { 
+  height: 6.25em; }
