@@ -26,7 +26,7 @@ main {
   margin-top:-1em; }
 
 #Alan-img { 
-  position:absolute !important;
+  position:relative !important;
   margin: auto !important;
   text-align:center !important; }
   
