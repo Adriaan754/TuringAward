@@ -31,7 +31,8 @@ body {
 }
 
 #silvio-img {
-  margin: auto;
+  margin-left: 100%;
+  margin-right: -100%;
 }
 
 iframe {
