@@ -30,6 +30,10 @@ body {
   margin-right: auto;
 }
 
+#silvio-img {
+  margin: auto;
+}
+
 iframe {
   border: none;
 }
