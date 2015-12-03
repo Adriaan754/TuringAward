@@ -39,7 +39,7 @@ iframe {
   border: none;
 }
 
-.material-placeholder {
-  margin-left:inherit !important;
-  margin-right:inherit !important;
+#index-banner {
+  transform : translateY(-1em);
 }
+
