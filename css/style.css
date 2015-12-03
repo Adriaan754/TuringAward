@@ -39,7 +39,4 @@ iframe {
   border: none;
 }
 
-#parallax-img-1 {
-  transform : translate3D(-50%,450px,0px) !important;
-}
 
