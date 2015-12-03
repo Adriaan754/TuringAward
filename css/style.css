@@ -39,7 +39,7 @@ iframe {
   border: none;
 }
 
-#index-banner {
-  transform : translateY(-1em);
+#parallax-img-1 {
+  transform : translate3D(-75%,0px,0px) !important;
 }
 
