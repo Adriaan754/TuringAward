@@ -38,3 +38,8 @@ body {
 iframe {
   border: none;
 }
+
+.material-placeholder {
+  margin-left:inherit;
+  margin-right:inherit;
+}
