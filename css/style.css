@@ -40,6 +40,6 @@ iframe {
 }
 
 .material-placeholder {
-  margin-left:inherit;
-  margin-right:inherit;
+  margin-left:inherit !important;
+  margin-right:inherit !important;
 }
