@@ -40,6 +40,6 @@ iframe {
 }
 
 #parallax-img-1 {
-  transform : translate3D(-75%,395px,0px) !important;
+  transform : translate3D(-75%,-395px,0px) !important;
 }
 
