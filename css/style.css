@@ -31,10 +31,12 @@ body {
 }
 
 #silvio-img {
-  margin-left: 100%;
-  margin-right: -100%;
+  margin-left: 150%;
+  margin-right: -50%;
 }
 
 iframe {
   border: none;
 }
+
+
