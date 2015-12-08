@@ -40,7 +40,3 @@ body {
 iframe {
   border: none;
 }
-
-#parallax-img-1 {
-  -ms-transform: translate3d(-100%, 0px, 0px);
-}
