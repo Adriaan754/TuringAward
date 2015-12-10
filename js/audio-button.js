@@ -15,7 +15,7 @@ $("#button_man").click(function() {
   }
 });
 
-var audioplayer_vrouw = document.getElementById("#audio_vrouw");
+var audioplayer_vrouw = document.getElementById("audio_vrouw");
 $("#button_vrouw").click(function() {
   if (audioplayer_vrouw.paused) {
     $("#button_vrouw").find("i").fadeOut(50, function() {
