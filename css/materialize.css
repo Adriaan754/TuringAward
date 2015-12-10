@@ -1,3 +1,12 @@
+.materialize-red-text {
+  color: #e51c23 !important;
+}
+.green-text {
+  color: #4CAF50 !important;
+}
+.orange-text.text-darken-3 {
+  color: #ef6c00 !important;
+}
 .teal.lighten-5 {
   background-color: #e0f2f1 !important;
 }
