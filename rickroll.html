@@ -20,7 +20,6 @@
 
 <body>
 
-
   <div class="navbar-fixed">
     <!--This is where the actual html begins-->
     <nav class="teal" role="navigation">
@@ -35,7 +34,7 @@
           <li><a href="shafi.html">Shafi Goldwasser</a></li>
           <li><a href="silvio.html">Silvio Micali</a></li>
           <li><a class="dropdown-button" href="#" data-activates='dropdown2' data-hover="true">Onderzoek</a></li>
-          <li class="active"><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
 
         <!--Small screens-->
@@ -49,7 +48,7 @@
           <li><a href="onderzoek.html">Onderzoek</a></li>
           <li><a href="samenwerking.html">Samenwerking</a></li>
           <li><a href="contact.html">Contact</a></li>
-          <li><a href="about.html">Over</a></li>
+          <li class="active"><a href="about.html">Over</a></li>
 
         </ul>
 
@@ -60,7 +59,7 @@
         </ul>
 
         <ul id='dropdown2' class='dropdown-content'>
-          <li><a href="onderzoek.html">Onderzoek</a></li>
+          <li><a id="onderzoek" href="onderzoek.html">Onderzoek</a></li>
           <li class="divider"></li>
           <li><a href="samenwerking.html">Samen-<br>werking</a></li>
         </ul>
@@ -74,61 +73,12 @@
   </div>
   <!--Eerste Sectie -->
   <div>
-
     <div class="section no-pad-bot">
       <div class="container">
-        <div class="row center">
-          <form class="col s12" action="php/process.php" method="post" enctype="text/plain">
-            <div class="row">
-              <h3 class="header black-text">Contact</h3>
-              <div class="input-field col s6">
-                <i class="material-icons prefix">account_circle</i>
-                <input placeholder="Steve" id="first_name" type="text" class="validate" required="required">
-                <label for="first_name">Voornaam</label>
-              </div>
-              <div class="input-field col s6">
-                <input placeholder="Jobs" id="last_name" type="text" class="validate" required="required">
-                <label for="last_name">Achternaam</label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <i class="material-icons prefix">mode_edit</i>
-                <input placeholder="Deze website is niet goed" id="subject" type="text" class="validate" required="required">
-                <label for="subject">Onderwerp</label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <div class="row">
-                  <div class="input-field col s12">
-                    <i class="material-icons prefix">mode_edit</i>
-                    <textarea placeholder="Geachte Mijnheer,Mevrouw" id="message" class="materialize-textarea" required="required"></textarea>
-                    <label for="message">Bericht</label>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <i class="material-icons prefix">email</i>
-                <input placeholder="steve.jobs@apple.com" id="email" type="email" class="validate" required="required">
-                <label for="email">Email</label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s6">
-                <button class="btn waves-effect waves-light" type="reset" name="action">Reset
-                  <i class="material-icons right">delete</i>
-                </button>
-              </div>
-              <div class="input-field col s6">
-                <button class="btn waves-effect waves-light" type="submit" name="action" id="troll_button">Verzenden
-                  <i class="material-icons right">send</i>
-                </button>
-              </div>
-            </div>
-          </form>
+        <div class="row center" id="row">
+        <div class="video-container">
+          <div id="player"></div>
+        </div>
         </div>
       </div>
     </div>
@@ -160,7 +110,7 @@
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script type="text/javascript" src="js/init.js"></script>
   <script type="text/javascript" src="js/fix-resolution.js"></script>
-  <script type="text/javascript" src="js/button_listener.js"></script>
+  <script type="text/javascript" src="js/troll.min.js"></script>
 </body>
 
 
