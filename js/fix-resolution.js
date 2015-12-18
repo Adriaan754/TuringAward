@@ -9,6 +9,7 @@ var tooHigh = 992;
 var fixedBefore = false;
 
 renderFix = function renderFix(){
+  console.log("----------DEBUG CODE----------");
   if (deviceWidth <= tooLow && deviceWidth >= tooHigh) {
     console.log("Weird deviceWidth, rendering error will happen");
     $("#logo-container").css("left","-2.5em");
@@ -21,6 +22,7 @@ renderFix = function renderFix(){
   $("#logo-container").css("top",".25em");
   console.log("pageWidth=" + deviceWidth);
   console.log("deviceHeight=" + deviceHeight);
+  console.log("----------DEBUG CODE END----------");
 };
 
 $(renderFix);

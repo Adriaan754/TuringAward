@@ -32,7 +32,7 @@ function onPlayerReady(event) {
   event.target.playVideo();
   $(".video-container").animate({
     top: "-5000em"
-  }, "swing");
+  }, "slow");
   $("#row").prepend("<p class='header center grey-text text-darken-4 flow-text' id='rickroll-text'>You just got rickrolled!</p>");
   $("#rickroll-text").animate(function() {
     fontSize:'20em'
