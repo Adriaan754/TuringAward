@@ -2,41 +2,37 @@
 #dropdown2 li a {
   text-align: center;
 }
-
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
-
 #img-container {
   margin: inherit;
 }
-
 .footer-icon {
   font-size: 1.45em !important;
 }
-
 #footer {
   margin-top: -1em;
   top: -1em;
 }
-
 #alan-img {
   margin-left: auto;
   margin-right: auto;
 }
-
 #shafi-img {
   margin-left: auto;
   margin-right: auto;
 }
-
 #silvio-img {
-  margin-left: auto ;
+  margin-left: auto;
   margin-right: auto;
 }
-
 iframe {
   border: none;
+}
+
+#spinner {
+  top: 14.7em;
 }
