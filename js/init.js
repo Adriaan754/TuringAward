@@ -1,12 +1,11 @@
 (function($) {
   $(function() {
-
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
     $('.materialboxed').materialbox();
     $('.datepicker').pickadate({
       selectMonths: true, // Creates a dropdown to control month
-      selectYears: 15 // Creates a dropdown of 15 years to control year
+      selectYears: 200, // Creates a dropdown of 200 years to control years
     });
 
     var date = new Date(2000, 05, 28);
