@@ -84,24 +84,36 @@
               <div class="input-field col s6">
                 <i class="material-icons prefix">account_circle</i>
                 <input placeholder="Steve" id="first_name" type="text" class="validate" required="required">
-                <label for="first_name">Voornaam</label>
+                <label class="left-align" for="first_name">Voornaam</label>
               </div>
               <div class="input-field col s6">
                 <input placeholder="Jobs" id="last_name" type="text" class="validate" required="required">
-                <label for="last_name">Achternaam</label>
+                <label class="left-align" for="last_name">Achternaam</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="left-align input-field col s1">
+                <i class="material-icons left teal-text">today</i>
+              </div>
+              <div class="input-field col s10">
+                <p class="grey-text" id="desc_bd">Geboortedatum</p>
+                <input type="date" class="datepicker" id="birth_date" placeholder="24 februari 1955">
               </div>
             </div>
             <div class="row">
               <div class="left-align input-field col s4">
-              <i class="left material-icons prefix teal-text">supervisor_account</i>
+                <i class="left material-icons prefix teal-text">supervisor_account</i>
               </div>
-              <div class="left input-field col s3">
+              <div class="col s1 pull-s3">
+                <p class="grey-text" id="desc_g">Geslacht</p>
+              </div>
+              <div class="left input-field col s3 pull-s2">
                 <p>
-                  <input name="group1" type="radio" id="test1" />
+                  <input checked name="group1" type="radio" id="test1" />
                   <label for="test1">Man</label>
                 </p>
               </div>
-              <div class="right input-field col s3">
+              <div class="right input-field col s3 pull-s2">
                 <p>
                   <input name="group1" type="radio" id="test2" />
                   <label for="test2">Vrouw</label>
@@ -112,7 +124,7 @@
               <div class="input-field col s12">
                 <i class="material-icons prefix">mode_edit</i>
                 <input placeholder="Deze website is niet goed" id="subject" type="text" class="validate" required="required">
-                <label for="subject">Onderwerp</label>
+                <label class="left-align" for="subject">Onderwerp</label>
               </div>
             </div>
             <div class="row">
@@ -121,7 +133,7 @@
                   <div class="input-field col s12">
                     <i class="material-icons prefix">mode_edit</i>
                     <textarea placeholder="Geachte Mijnheer,Mevrouw" id="message" class="materialize-textarea" required="required"></textarea>
-                    <label for="message">Bericht</label>
+                    <label class="left-align" for="message">Bericht</label>
                   </div>
                 </div>
               </div>
@@ -130,7 +142,7 @@
               <div class="input-field col s12">
                 <i class="material-icons prefix">email</i>
                 <input placeholder="steve.jobs@apple.com" id="email" type="email" class="validate" required="required">
-                <label for="email">Email</label>
+                <label class="left-align" for="email">Email</label>
               </div>
             </div>
             <div class="row">

@@ -32,3 +32,9 @@ body {
 iframe {
   border: none;
 }
+#desc_bd{
+  font-size: 0.85em;
+}
+#desc_g{
+  font-size: 0.85em;
+}

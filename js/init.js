@@ -4,6 +4,10 @@
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
     $('.materialboxed').materialbox();
+    $('.datepicker').pickadate({
+      selectMonths: true, // Creates a dropdown to control month
+      selectYears: 15 // Creates a dropdown of 15 years to control year
+    });
 
     var date = new Date(2000, 05, 28);
     var date_jannick = new Date(1999, 04, 22);
