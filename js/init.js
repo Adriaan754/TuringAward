@@ -17,8 +17,8 @@
       return Math.abs(ageDate.getUTCFullYear() - 1970);
     }
     try {
-      document.getElementById("age-adriaan").innerHTML = "Leeftijd: " + _calculateAge(date);
-      document.getElementById("age-jannick").innerHTML = "Leeftijd: " + _calculateAge(date_jannick);
+      $("#age-adriaan").html("Leeftijd: " + _calculateAge(date));
+      $("#age-jannick").html("Leeftijd: " + _calculateAge(date_jannick));
     } catch (err) {
 
     }
