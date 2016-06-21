@@ -41,3 +41,9 @@ iframe {
 #r888{
   font-size:0.85em;
 }
+::selection {
+  background-color: #66CC99;
+}
+::-moz-selection {
+  background-color: #66CC99;
+}
